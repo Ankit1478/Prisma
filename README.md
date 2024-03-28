@@ -17,15 +17,23 @@ Welcome to the Prisma documentation! Prisma is a modern database toolkit that si
 
 Prisma is an ORM (Object-Relational Mapping) tool that provides a type-safe and database-agnostic way to interact with databases. It offers a powerful query builder and schema definition language.
 
-## Getting Started
+## Getting Started with TypeScript
 
 To get started with Prisma, follow these steps:
 
-1. Install Prisma CLI globally: `npm install prisma -g`.
-2. Initialize a new Prisma project: `prisma init`.
-3. Define your data model in `schema.prisma`.
-4. Run `prisma migrate dev` to create database migrations.
-5. Use Prisma Client to interact with your database in your application code.
+1. `npm init -y`.
+2. `npm install prisma typescript ts-node @types/node --save-dev`.
+3. `schema.prisma`.
+4. `npx tsc --init`.
+5. `change 'rootDir' to "./src`
+6. `change 'outDir' to "./dist`
+7. `npx prisma init`
+8. set Database Url in .env file `postgres//..url`.
+9. after added schema Run command `npx prisma migrate dev --name ankit`.
+10. Check Migration Folder.
+11. if you Ipdate your Schema of Prisma then re Run `npx prisma migrate dev --name newSchema_Added`.
+12. It will Create a new Folder in Migration.
+13. TO Start To Write Code in TypeScript   #Use Command  `npx prisma generate`.
 
 ## Prisma Concepts
 
