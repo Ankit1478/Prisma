@@ -35,6 +35,14 @@ To get started with Prisma, follow these steps:
 12. It will Create a new Folder in Migration.
 13. TO Start To Write Code in TypeScript   #Use Command  `npx prisma generate`.
 
+
+
+## if you Want to Connect Cloudflare
+
+1. `npm create cloudflare@latest`
+2. Install Prisma as a dev depenndency  `npm install prisma --save-dev`
+3. 
+
 ## Prisma Concepts
 
 ### 1. Data Model
