@@ -44,6 +44,8 @@ To get started with Prisma, follow these steps:
 3. Enable Accelerate in Prisma Data platform From `https://www.prisma.io/data-platform/accelerate`
 4. Generate API Key Paste in DataBase  this is my Connection Polling  Paste in `wrangler.tomler file`
 5. and Direct_URL in `.env`
+6. then `npm install @prisma/extension-accelerate`.
+7. If you want to run your application in serverless or cloudfare env  `npx prisma generate --no-engine`.
 
 ## Prisma Concepts
 
